@@ -1,0 +1,17 @@
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-list--item {
+  margin: 0 1rem;
+}
+.nav-list--link {
+  text-decoration: none;
+  padding: 15px;
+  opacity: 0.8;
+}
+.nav-list--link:hover {
+  opacity: 1;
+}

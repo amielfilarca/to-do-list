@@ -1,0 +1,15 @@
+.header-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-details p {
+  margin: 5px 0;
+}
+.header-details--current-date {
+  font-weight: bold;
+}
+.header-details--active-tasks {
+  color: deepskyblue;
+}

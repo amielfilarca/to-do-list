@@ -1,0 +1,33 @@
+.task-list-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 15px 0;
+  border-bottom: 1px solid gray;
+}
+.task-list-item--mark-complete-button {
+  margin: 0 10px;
+  background: none;
+  border: none;
+  padding: 10px;
+  outline: none;
+}
+.task-list-item--mark-complete-button:hover svg path {
+  fill: lawngreen;
+}
+.task-list-item--task-name {
+  text-align: start;
+  flex: 1;
+  overflow: hidden;
+}
+.task-list-item--delete-button {
+  background: none;
+  border: none;
+  margin: 0 10px;
+  padding: 10px;
+  outline: none;
+}
+.task-list-item--delete-button:hover svg path {
+  fill: firebrick;
+}
