@@ -11,7 +11,7 @@ export class AppMain extends Component {
       <div className="app-main">
         <Route
           exact
-          path="/"
+          path="/to-do-list/"
           render={(props) => (
             <React.Fragment>
               <MainNewTask
@@ -27,7 +27,7 @@ export class AppMain extends Component {
           )}
         />
         <Route
-          path="/completed"
+          path="/to-do-list/completed"
           render={(props) => (
             <React.Fragment>
               <MainCompletedTaskList

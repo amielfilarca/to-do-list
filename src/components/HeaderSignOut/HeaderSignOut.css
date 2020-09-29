@@ -1,0 +1,10 @@
+.sign-out-button {
+  background-color: #292929;
+  color: whitesmoke;
+  border: 2px solid whitesmoke;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 1rem;
+}

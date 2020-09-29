@@ -7,12 +7,12 @@ export class HeaderNav extends Component {
     return (
       <ul className="nav-list">
         <li className="nav-list--item">
-          <Link className="nav-list--link" to="/">
+          <Link className="nav-list--link" to="/to-do-list/">
             Incomplete Tasks
           </Link>
         </li>
         <li className="nav-list--item">
-          <Link className="nav-list--link" to="/completed">
+          <Link className="nav-list--link" to="/to-do-list/completed">
             Completed Tasks
           </Link>
         </li>
